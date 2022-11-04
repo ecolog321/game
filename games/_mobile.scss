@@ -1,0 +1,120 @@
+@media (max-width:767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .main {
+
+        &__top {
+
+            &__content {
+                padding-top: 238px;
+                align-items: center;
+            }
+
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__bot {
+            &__content {
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .main__game1 {
+
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 60px;
+        justify-items: center;
+        padding-top: 50px;
+        padding-bottom: 90px;
+
+        &__left {
+            grid-column: -1/1;
+            align-items: center;
+        }
+
+        &__right {
+            grid-column: -1/1;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+    }
+
+    .main__game2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 90px;
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__right {
+            align-items: center;
+        }
+    }
+
+    .main__game3 {
+        padding-top: 51px;
+        padding-bottom: 487px;
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+
+    .game1_img {
+
+        max-width: 344px;
+
+    }
+
+    .game2_img {
+
+        max-width: 344px;
+
+    }
+}
